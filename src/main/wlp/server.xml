@@ -1,4 +1,4 @@
-<server description="liberty-helloworld-server">  
+<server description="liberty-maven-bluemix-sample-server">  
   <featureManager>
     <feature>jaxrs-1.1</feature>
     <feature>ejbLite-3.1</feature>
@@ -8,5 +8,5 @@
 
   <httpEndpoint id="defaultHttpEndpoint" httpPort="${Port}" host="*" />
   
-  <application id="liberty-helloworld" location="liberty-helloworld.war" name="liberty-helloworld" type="war" context-root="/" />
+  <application id="liberty-maven-bluemix-sample" location="liberty-maven-bluemix-sample.war" name="liberty-maven-bluemix-sample" type="war" context-root="/" />
 </server>

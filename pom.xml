@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.wellnr</groupId>
-  <artifactId>liberty-helloworld</artifactId>
+  <artifactId>liberty-maven-bluemix-sample</artifactId>
   <version>0.1-SNAPSHOT</version>
-  <name>liberty-helloworld</name>
+  <name>liberty-maven-bluemix-sample</name>
 
-  <description>Ein paar Tests mit Liberty Profile, Bluemix &amp; Co.</description>
+  <description>This sample shows how to deploy liberty applications to IBM Bluemix with Maven.</description>
 
   <packaging>war</packaging>
 
