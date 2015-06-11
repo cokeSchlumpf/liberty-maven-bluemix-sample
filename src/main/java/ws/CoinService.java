@@ -7,14 +7,8 @@ import javax.ws.rs.Path;
 @Stateless
 @Path("coin")
 public class CoinService {
-
-    @GET
-	public String flip() {
-	  if (Math.random() > 0.5) {
-	    return "Head";
-	  } else {
-	    return "Tail";
-	  }
-	}
-
+  @GET
+  public String flip() {
+    return Math.random() > 0.5 ? "Heads" : "Tail";
+  }
 }
